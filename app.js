@@ -85,7 +85,7 @@ app.put('/api/edit_task/:id', async (req, res) => {
 
 // MongoDB connection
 mongoose
-  .connect("mongodb+srv://ratnabhupathitanala:Aditya123@cluster0.eahgacc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+  .connect("mongodb+srv://gnaneswararaoenugutala789:Aditya123@cluster0.c2xrzw3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.log("DB connection error:", err));
 
